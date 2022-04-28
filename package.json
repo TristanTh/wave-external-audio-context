@@ -1,0 +1,22 @@
+{
+  "name": "wave-external-audio-context",
+  "version": "1.0.0",
+  "description": "Modification of Wave.js version 1.8.2 that connects the audio analyser to a developer defined audio context",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TristanTh/wave-for-audio-contexts.git"
+  },
+  "keywords": [
+    "Wave"
+  ],
+  "author": "Tristan Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TristanTh/wave-for-audio-contexts/issues"
+  },
+  "homepage": "https://github.com/TristanTh/wave-for-audio-contexts#readme"
+}
