@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TristanTh/wave-for-audio-contexts.git"
+    "url": "git+https://github.com/TristanTh/wave-external-audio-context.git"
   },
   "keywords": [
     "Wave"
@@ -16,7 +16,7 @@
   "author": "Tristan Thompson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TristanTh/wave-for-audio-contexts/issues"
+    "url": "https://github.com/TristanTh/wave-external-audio-context/issues"
   },
-  "homepage": "https://github.com/TristanTh/wave-for-audio-contexts#readme"
+  "homepage": "https://github.com/TristanTh/wave-external-audio-context#readme"
 }
