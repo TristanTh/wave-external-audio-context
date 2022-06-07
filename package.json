@@ -1,6 +1,6 @@
 {
   "name": "wave-external-audio-context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modification of Wave.js version 1.8.2 that connects the audio analyser to a developer defined audio context",
   "main": "index.js",
   "scripts": {

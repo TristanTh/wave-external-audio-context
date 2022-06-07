@@ -1,6 +1,6 @@
 "use strict";
 
-function fromElement(element_id, canvas_id, options, audioCtx, precedingNode) {
+function fromElement(element_id, canvas_id, options, inputAnalyser) {
   const globalAccessKey = [options.globalAccessKey || "$wave"];
   const initGlobalObject = (elementId) => {
     window[globalAccessKey] = window[globalAccessKey] || {};
@@ -49,14 +49,7 @@ function fromElement(element_id, canvas_id, options, audioCtx, precedingNode) {
     const currentCount = this.activeElements[element_id].count;
 
     // create the audio analyser
-    const analyser = setGlobal(
-      element.id,
-      "analyser",
-      audioCtx.createAnalyser()
-    );
-
-    // connect the audio analyser to the node passed into the module
-    precedingNode.connect(analyser);
+    let analyser = inputAnalyser;
 
     analyser.fftsize = 32768;
     const bufferLength = analyser.frequencyBinCount;
